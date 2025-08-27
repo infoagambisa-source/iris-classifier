@@ -20,6 +20,8 @@ iris-classifier/
 ├── tests/
 │   └── test_train.py
 ├── outputs/
+│   └── confusion_matrix.png
+│   └── model.joblib
 ├── .gitignore
 ├── LICENSE
 ├── README.md
