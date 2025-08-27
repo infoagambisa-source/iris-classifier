@@ -15,11 +15,12 @@ iris-classifier/
 ├── data/
 ├── notebooks/
 │   └── iris_model.ipynb
+├── outputs/
+│   ├── confusion_matrix.png
+│   └── model.joblib
 ├── src/
 │   └── train.py
 ├── tests/
-│   └── test_train.py
-├── outputs/
 ├── .gitignore
 ├── LICENSE
 ├── README.md

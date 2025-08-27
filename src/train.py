@@ -6,6 +6,8 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
+import joblib
+
 
 # Set up command-line arguments
 parser = argparse.ArgumentParser(description="Train a Decision Tree on the Iris dataset")
@@ -57,4 +59,9 @@ plt.title("Confusion Matrix")
 plt.tight_layout()
 plt.savefig("outputs/confusion_matrix.png")
 print("Confusion matrix saved to outputs/confusion_matrix.png")
+
+# Save the trained model
+joblib.dump(model, "outputs/model.joblib")
+print("Trained model saved to outputs/model.joblib")
+
 
