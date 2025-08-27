@@ -5,7 +5,7 @@ End-to-end ML example: builds a decision-tree classifier on the Iris dataset usi
 
 ## Quick start
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/iris-classifier.git
+git clone https://github.com/<infoagambisa-source>/iris-classifier.git
 cd iris-classifier
 python -m venv venv && .\venv\Scripts\activate  # Windows
 pip install -r requirements.txt
@@ -15,12 +15,11 @@ iris-classifier/
 ├── data/
 ├── notebooks/
 │   └── iris_model.ipynb
-├── outputs/
-│   ├── confusion_matrix.png
-│   └── model.joblib
 ├── src/
 │   └── train.py
 ├── tests/
+│   └── test_train.py
+├── outputs/
 ├── .gitignore
 ├── LICENSE
 ├── README.md

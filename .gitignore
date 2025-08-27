@@ -12,4 +12,4 @@ env/
 .ipynb_checkpoints
 
 # Outputs
-outputs/
+# outputs/ ,-previously ignored, now we want to track it
